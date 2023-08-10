@@ -1,0 +1,38 @@
+{
+  "name": "wcn-lambda-actions",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.236.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.92.0",
+    "@aws-sdk/client-dynamodb": "^3.236.0",
+    "@aws-sdk/client-firehose": "^3.131.0",
+    "@aws-sdk/client-lambda": "^3.105.0",
+    "@aws-sdk/client-s3": "3.238.0",
+    "@aws-sdk/client-secrets-manager": "^3.171.0",
+    "@aws-sdk/cloudfront-signer": "^3.229.0",
+    "@aws-sdk/lib-dynamodb": "^3.236.0",
+    "@aws-sdk/middleware-endpoint": "^3.178.0",
+    "@aws-sdk/s3-presigned-post": "^3.88.0",
+    "@aws-sdk/s3-request-presigner": "^3.290.0",
+    "aws-cloudfront-sign": "^2.2.0",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.1.0",
+    "es6-template-strings": "^2.0.1",
+    "form-data": "^4.0.0",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3",
+    "qs": "^6.11.0",
+    "sql-template-strings": "^2.2.2",
+    "vm": "^0.1.0"
+  }
+}
